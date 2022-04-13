@@ -1,8 +1,6 @@
 package app;
 
 
-import javax.swing.*;
-
 public class Logic {
 
 
@@ -21,12 +19,12 @@ public class Logic {
             break;
 
             case "multi":
-                wynik=l1*l2;
+                wynik=(float)l1*l2;
             break;
 
             case "div":
                 try{
-                    wynik=l1/l2;
+                    wynik=(float)l1/l2;
                 }catch(Exception e){
                     wynik=404;
                 }
